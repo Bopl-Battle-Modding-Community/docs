@@ -63,8 +63,22 @@ First, [download the `.zip`](https://github.com/Bopl-Battle-Modding-Community/mo
 ![GitHub screenshot of user about to click "Download ZIP" button](/images/screenshots/creating/download.png)
 ![File explorer screenshot of downloaded ZIP file and extracted folder](/images/screenshots/creating/extract.png)
 
-::: info
+If all goes well, you should see these files in your folder:
 
-The rest of this documentation is currently incomplete. If you would like to add on to the documentation, please [contribute](https://github.com/Bopl-Battle-Modding-Community/docs) to the repository.
+::: code-group
+
+<<< @/public/external/mod-template/Plugin.cs
+
+<<< @/public/external/mod-template/ModInfo.cs
+
+<<< @/public/external/mod-template/NuGet.Config
+
+<<< @/public/external/mod-template/dependencies.txt
+
+<<< @/public/external/mod-template/TemplateMod.csproj
+
+<<< @/public/external/mod-template/.gitignore
 
 :::
+
+<!--@include: ../in-progress.md-->

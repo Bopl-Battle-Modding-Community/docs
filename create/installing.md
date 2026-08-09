@@ -3,9 +3,13 @@ The .NET SDK is a set of developer tools that allow you to create programs in C#
 
 ::: warning
 
-**The latest recommended .NET version to install is .NET 6**. Later versions may have trouble loading the command-line mod template provided by BepInEx, but can still be used to build mods. 
+If you want to use [BepInEx templates](/create/create#create-from-a-template) to create your mod, you need to install .NET 6 or earlier. Newer versions give an error when creating the project.
 
 :::
+
+## Download
+
+Download instructions for different operating systems can be found here.
 
 ::: info
 
@@ -13,10 +17,6 @@ If you installed Visual Studio, you likely installed the .NET SDK alongside it. 
 If it is installed, you can skip this section.
 
 :::
-
-## Download
-
-Download instructions for different operating systems can be found here.
 
 ::: details Windows
 
