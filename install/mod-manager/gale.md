@@ -1,3 +1,5 @@
+<!--@include: ../../in-progress.md-->
+
 # Gale Mod Manager
 Gale is a community made mod manager for Thunderstore mods. It features a very intuitive user experience and is very lightweight compared to other mod managers.
 
@@ -18,5 +20,3 @@ Gale is a community made mod manager for Thunderstore mods. It features a very i
 1. Follow the [installation instructions](https://github.com/Kesomannen/gale#installation) provided on the GitHub repository.
 2. Open the app
 3. When prompted to select a game to mod, search for and select Bopl Battle. You can change this at any time if you want to mod another game on Thunderstore.
-
-<!--@include: ../../in-progress.md-->

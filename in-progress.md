@@ -1,5 +1,7 @@
 ::: warning
 
-The rest of this page is currently incomplete. If you would like to add on to the documentation, please [contribute](https://github.com/Bopl-Battle-Modding-Community/docs) to the repository.
+This page is **incomplete**. Some information may be incorrect, missing, or outdated.
+
+If you would like to improve this page, please [contribute](https://github.com/Bopl-Battle-Modding-Community/docs) to the documentation.
 
 :::

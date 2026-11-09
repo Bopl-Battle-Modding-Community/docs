@@ -8,8 +8,8 @@ import { withBase } from 'vitepress'
     <p class="code">404</p>
     <h1 class="title">PAGE NOT FOUND</h1>
     <div class="divider" />
-    This page does not exist.<br>
-    This site is still very empty, so this page may not exist yet.<br>
+    This page could not be found.<br>
+    This site is still very empty, so this page may have been moved or is still in progress.<br>
     If it should exist, please consider <a href="https://github.com/Bopl-Battle-Modding-Community/docs">contributing your knowledge</a> and help this site grow. 
 
     <div class="action">

@@ -71,14 +71,12 @@ If all goes well, you should see these files in your folder:
 
 <<< @/public/external/mod-template/ModInfo.cs
 
-<<< @/public/external/mod-template/NuGet.Config
+<<< @/public/external/mod-template/NuGet.Config{xml}
 
 <<< @/public/external/mod-template/dependencies.txt
 
-<<< @/public/external/mod-template/TemplateMod.csproj
+<<< @/public/external/mod-template/TemplateMod.csproj{xml}
 
 <<< @/public/external/mod-template/.gitignore
 
 :::
-
-<!--@include: ../in-progress.md-->

@@ -15,6 +15,12 @@ export default defineConfig({
 
     assetsDir: "public",
 
+    markdown: {
+        lineNumbers: true
+    },
+
+    titleTemplate: ":title - Bopl Battle Modding Docs",
+
     themeConfig: {
         logo: "/images/branding/boplglitch.png",
 
@@ -43,31 +49,31 @@ export default defineConfig({
                 items: [
                     {
                         text: "Quickstart",
-                        link: "/install/quickstart"
+                        link: "/install/quickstart",
                     },
                     {
-                        text: "Install a Mod Manager",
+                        text: "Install a mod manager",
                         link: "/install/mod-manager",
                         collapsed: false,
                         items: [
-                            { 
+                            {
                                 text: "Gale",
-                                link: "/install/mod-manager/gale"
-                            },
-                            { 
-                                text: "r2modman",
-                                link: "/install/mod-manager/r2modman"
-                            },
-                            { 
-                                text: "Thunderstore Mod Manager",
-                                link: "/install/mod-manager/tsmm"
+                                link: "/install/mod-manager/gale",
                             },
                             {
-                                text: "Manual Install",
-                                link: "/install/mod-manager/manual"
-                            }
-                        ]
-                    }
+                                text: "r2modman",
+                                link: "/install/mod-manager/r2modman",
+                            },
+                            {
+                                text: "Thunderstore Mod Manager",
+                                link: "/install/mod-manager/tsmm",
+                            },
+                            {
+                                text: "Manual installation",
+                                link: "/install/mod-manager/manual",
+                            },
+                        ],
+                    },
                 ],
             },
             {
@@ -78,6 +84,10 @@ export default defineConfig({
                         link: "/create/quickstart",
                     },
                     {
+                        text: "Choosing an IDE",
+                        link: "/create/ide",
+                    },
+                    {
                         text: "Installing the .NET SDK",
                         link: "/create/installing",
                     },
@@ -85,6 +95,18 @@ export default defineConfig({
                         text: "Creating your mod",
                         link: "/create/create",
                     },
+                    {
+                        text: "Modding tools",
+                        link: "/create/tools",
+                    },
+                    {
+                        text: "Your first mod",
+                        link: "/create/your-first-mod",
+                    },
+                    {
+                        text: "What's a Fix?",
+                        link: "/create/whats-a-fix"
+                    }
                 ],
             },
         ],
@@ -97,14 +119,17 @@ export default defineConfig({
             {
                 icon: "github",
                 link: "https://github.com/Bopl-Battle-Modding-Community/docs",
+                ariaLabel: "Documentation GitHub repository",
             },
             {
                 icon: "discord",
                 link: "https://discord.gg/uhtpWwkaUm",
+                ariaLabel: "Bopl Battle Community Discord server"
             },
             {
                 icon: "steam",
                 link: "https://store.steampowered.com/app/1686940/Bopl_Battle/",
+                ariaLabel: "Bopl Battle Steam page"
             },
         ],
     },
