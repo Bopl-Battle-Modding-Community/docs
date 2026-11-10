@@ -10,7 +10,9 @@ The most popular mod managers available are:
 Not sure what mod manager to use? Use this table for more information:
 | Features                 | Gale | r2modman | Thunderstore Mod Manager |
 |--------------------------|:----:|:--------:|:------------------------:|
-| Requires [Overwolf](https://en.wikipedia.org/wiki/Overwolf) | ❌ | ❌ | ✅ |
+| Requires [Overwolf](https://en.wikipedia.org/wiki/Overwolf) | ❌ | ❌ | ✅ | 
 | Native Linux support     | ✅   | ✅       | ❌                       |
 | Open source              | ✅   | ✅       | ❌                       |
 | Resource usage           | Small | Large   | Large                    |
+
+<!-- can someone pretty please add more detailed info here -->

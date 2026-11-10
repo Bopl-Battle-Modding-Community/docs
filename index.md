@@ -14,5 +14,8 @@ hero:
     - theme: alt
       text: Create Mods
       link: /create/quickstart
+    - theme: alt
+      text: Discord Server
+      link: https://discord.gg/HQxmFeaa5f
 ---
 

@@ -6,7 +6,7 @@ If you do not want to use a mod manager (likely for testing mods or full control
 
 ::: warning
 
-**Do not download any BepInEx 6 versions**, as they are not supported by nearly all mods and are still heavily in development.
+**Do not download any BepInEx 6 versions**, as it is heavily designed around IL2CPP games and is not supported by most, if not all, Bopl Battle mods.
 
 :::
 

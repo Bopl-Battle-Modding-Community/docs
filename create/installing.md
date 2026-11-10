@@ -42,6 +42,15 @@ sudo apt install dotnet-sdk-10.0
 
 :::
 
+::: details Fedora/Bazzite
+
+Install the package through `dnf`:
+```bash
+sudo dnf install dotnet-sdk-10.0
+```
+
+::: 
+
 ::: details Arch Linux (pacman)
 
 Install the latest .NET SDK:
