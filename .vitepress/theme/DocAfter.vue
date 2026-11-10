@@ -8,7 +8,7 @@ import Giscus from "@giscus/vue";
         repo-id="R_kgDOTqhAcg"
         category="Comments"
         category-id="DIC_kwDOTqhAcs4DK11N"
-        mapping="title"
+        mapping="pathname"
         strict="1"
         reactions-enabled="0"
         emit-metadata="0"
