@@ -5,6 +5,7 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import NotFound from './NotFound.vue'
 import DocWarning from './DocWarning.vue'
+import DocAfter from './DocAfter.vue'
 
 export default {
   extends: DefaultTheme,
@@ -12,6 +13,7 @@ export default {
     return h(DefaultTheme.Layout, null, {
       'not-found': () => h(NotFound),
       'sidebar-nav-after': () => h(DocWarning),
+      'doc-footer-before': () => h(DocAfter)
     })
   },
   enhanceApp({ app, router, siteData }) {

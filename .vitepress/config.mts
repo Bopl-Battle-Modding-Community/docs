@@ -11,13 +11,17 @@ export default defineConfig({
 
 	cleanUrls: true,
 
-	srcExclude: ["**/README.md"],
+	srcExclude: ["**/README.md", "**/in-progress.md", "**/missing.md"],
 
 	assetsDir: "public",
 
 	markdown: {
 		lineNumbers: true,
 	},
+
+	lang: "en-US",
+
+	dir: "ltr",
 
 	titleTemplate: ":title - Bopl Battle Modding Docs",
 
@@ -41,6 +45,14 @@ export default defineConfig({
 		footer: {
 			message: `This website is not affiliated by or associated with Johan Grönvall or <a href="https://zapraygames.com/" target="_blank" rel="noreferrer">Zapray Games</a>.`,
 			copyright: `Made by the <a href="https://github.com/Bopl-Battle-Modding-Community" target="_blank" rel="noreferrer">Bopl Battle Modding Community</a>.`,
+		},
+
+		lastUpdated: {
+			text: "Last modified",
+			formatOptions: {
+				dateStyle: "long",
+				timeStyle: "short"
+			}
 		},
 
 		sidebar: [
@@ -105,7 +117,7 @@ export default defineConfig({
 					},
 					{
 						text: "Advanced",
-                        collapsed: false,
+						collapsed: false,
 						items: [
 							{
 								text: "What's a Fix?",
@@ -115,10 +127,10 @@ export default defineConfig({
 					},
 				],
 			},
-            {
-                text: "About this site",
-                link: "/about"
-            },
+			{
+				text: "About this site",
+				link: "/about",
+			},
 		],
 
 		search: {
