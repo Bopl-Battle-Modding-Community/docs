@@ -13,7 +13,8 @@ export default {
     return h(DefaultTheme.Layout, null, {
       'not-found': () => h(NotFound),
       'sidebar-nav-after': () => h(DocWarning),
-      'doc-footer-before': () => h(DocAfter)
+      // disabling for now, giscus is broken on SPAs
+      // 'doc-footer-before': () => h(DocAfter) 
     })
   },
   enhanceApp({ app, router, siteData }) {
