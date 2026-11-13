@@ -8,6 +8,8 @@
     "vitepress": "^2.0.0-alpha.18"
   },
   "dependencies": {
-    "@giscus/vue": "^3.1.1"
+    "@giscus/vue": "^3.1.1",
+    "@vueuse/core": "^15.0.0",
+    "jszip": "^3.10.2"
   }
 }

@@ -51,8 +51,8 @@ export default defineConfig({
 			text: "Last modified",
 			formatOptions: {
 				dateStyle: "long",
-				timeStyle: "short"
-			}
+				timeStyle: "short",
+			},
 		},
 
 		sidebar: [
@@ -110,6 +110,13 @@ export default defineConfig({
 					{
 						text: "Modding tools",
 						link: "/create/tools",
+						collapsed: false,
+						items: [
+							{
+								text: "Thunderstore Packager",
+								link: "/create/tools/thunderstore-packager",
+							},
+						],
 					},
 					{
 						text: "Your first mod",

@@ -15,4 +15,6 @@ Some popular ones are:
 - [helightdev/UnityPublicizer](https://github.com/helightdev/UnityPublicizer)
 
 ## Thunderstore Packager
-[This website](https://abstractmelon.net/thunderstore-packager/) simplifies the creation of Thunderstore packages and allows you to easily upload your mod onto Thunderstore.
+The [Thunderstore Packager](/create/tools/thunderstore-packager) allows you to easily create your own package for upload to Thunderstore by walking you step-by-step through the process.
+
+If you want, you can also use [the original version](https://abstractmelon.net/thunderstore-packager/) by Abstractmelon.
