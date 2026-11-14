@@ -138,7 +138,7 @@ public class Patches
 
 This added line sets the result to zero and returns the new result.
 
-If you're not sure why we use the `Fix` class in this example, check out the [next page](/create/advanced/whats-a-fix).
+If you're not sure why we use the `Fix` class in this example, check out [this page](/create/advanced/whats-a-fix).
 
 ## Building and running
 ::: warning
