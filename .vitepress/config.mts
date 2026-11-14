@@ -123,6 +123,10 @@ export default defineConfig({
 						link: "/create/your-first-mod",
 					},
 					{
+						text: "Uploading to Thunderstore",
+						link: "/create/thunderstore"
+					},
+					{
 						text: "Advanced",
 						collapsed: false,
 						items: [

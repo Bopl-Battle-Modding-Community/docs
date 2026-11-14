@@ -186,7 +186,7 @@ function formatSize(bytes: number) {
 		"
 	/>
 	<button @click="zipSelector?.click()">Upload Package to Modify</button>
-	<h2>Name</h2>
+	<h2 required>Name</h2>
 	<p>
 		The name of the mod without spaces. Names must be alphanumeric and can
 		be up to 128 characters long. If you want to add a space to your mod
@@ -211,7 +211,7 @@ function formatSize(bytes: number) {
 			}
 		"
 	/>
-	<h2>Description</h2>
+	<h2 required>Description</h2>
 	<p>
 		A short description of your mod, typically shown in mod managers or the
 		Thunderstore mod browser, and can be up to 250 characters.
@@ -232,10 +232,10 @@ function formatSize(bytes: number) {
 	/>
 	<div class="row">
 		<div class="expand">
-			<h2>Icon</h2>
+			<h2 required>Icon</h2>
 			<p>
 				The icon of your mod. The image is automatically converted to a
-				512x512 PNG.
+				256x256 PNG, but it's recommended you create your icon with these limits in mind.
 			</p>
 			<input
 				ref="img-selector"
@@ -272,7 +272,7 @@ function formatSize(bytes: number) {
 			alt=""
 		/>
 	</div>
-	<h2>Version</h2>
+	<h2 required>Version</h2>
 	<p>
 		The version of the mod package. This must be in the 3-numbered
 		<a href="https://semver.org/" rel="noreferrer" target="_blank"
@@ -312,7 +312,7 @@ function formatSize(bytes: number) {
 			}
 		"
 	/>
-	<h2>README</h2>
+	<h2 required>README</h2>
 	<p>
 		A longer description of your mod. A README can be helpful for
 		instructions, demonstrations, and explanations. Markdown is supported.
@@ -352,7 +352,7 @@ function formatSize(bytes: number) {
 	<button @click="changelog = changelog == null ? '' : null">
 		{{ changelog == null ? "Add" : "Remove" }} Changelog
 	</button>
-	<h2>Mod File</h2>
+	<h2 required>Mod File</h2>
 	<p>
 		The <code>.dll</code> file of your mod, created by
 		<a href="/create/your-first-mod#building-and-running"
@@ -434,6 +434,7 @@ function formatSize(bytes: number) {
 			Some required fields are incomplete. Fill them out before packaging.
 		</p>
 	</div>
+	<h2>Done?</h2>
 </template>
 
 <style scoped>
@@ -523,6 +524,11 @@ button.delete:hover {
 
 .expand {
 	flex: 1;
+}
+
+h2[required]::after {
+	content: " *";
+	color: var(--vp-c-danger-1);
 }
 
 button:hover {

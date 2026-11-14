@@ -7,8 +7,12 @@ All processing is done locally. Nothing you put here gets uploaded to a server (
 
 :::
 
+Red asterisks (*) indicate a field is required.
+
 <script setup lang="ts">
 import ThunderstorePackager from './ThunderstorePackager.vue';
 </script>
 
 <ThunderstorePackager />
+
+Once you're done packaging your mod, learn how to [upload it to Thunderstore](/create/thunderstore).
